@@ -72,15 +72,7 @@ h1 {
 }
 .justify {
 }
-.image {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  max-width: 75vw;
-  max-height: 50vh;
-}
+
 .instagram {
   width: 2.4vw;
 }
@@ -91,6 +83,16 @@ h1 {
   position: absolute;
 }
 @media (max-width: 800px) {
+}
+
+.image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  max-width: 75vw;
+  max-height: 50vh;
 }
 @media (max-width: 600px) {
   .main .top,
@@ -113,7 +115,7 @@ h1 {
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%) rotateZ(-45deg);
+    transform: translate(-50%, -50%) rotateZ(-90deg);
     width: 100vh;
     height: 100vw;
     max-width: inherit;
