@@ -73,6 +73,12 @@ h1 {
 .justify {
 }
 
+.grid {
+  display: grid;
+  text-align: center;
+  grid-template-columns: auto 14.2px 14.2px 14.2px 14.2px 14.2px 14.2px 14.2px 14.2px 14.2px 14.2px 14.2px 14.2px 14.2px 14.2px 14.2px auto;
+}
+
 .instagram {
   width: 2.4vw;
 }
