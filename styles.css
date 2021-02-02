@@ -50,8 +50,7 @@ h1 {
   }
 }
 
-.main,
-.container {
+.main {
   height: calc(100vh - 120px);
   position: relative;
 }
@@ -107,6 +106,10 @@ h1 {
   .flex {
     display: inherit;
     justify-content: space-between;
+  }
+  .main {
+    height: calc(100% - 60px);
+    position: relative;
   }
   .bottomRight {
     text-align: inherit;
