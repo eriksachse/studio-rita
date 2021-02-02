@@ -83,6 +83,7 @@ h1 {
   .main .top,
   .flex {
     margin: 12px;
+    display: flex;
   }
 }
 .grid {
