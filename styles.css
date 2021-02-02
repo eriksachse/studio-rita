@@ -22,6 +22,7 @@ body {
   font-size: 24px;
   line-height: 30px;
   overflow: hidden;
+  height: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -49,8 +50,9 @@ h1 {
   }
 }
 
-.main {
-  height: calc(100% - 120px);
+.main,
+.container {
+  height: calc(100vh - 120px);
   position: relative;
 }
 #Layer_1 {
@@ -116,6 +118,13 @@ h1 {
   .main .bottom {
     /* position: inherit;
     margin-top: 24px; */
+  }
+  body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+  }
+  html {
+    height: -webkit-fill-available;
   }
   html,
   body {
