@@ -122,8 +122,11 @@ h1 {
     min-height: -webkit-fill-available;
   }
   html {
-    overflow: hidden;
     height: -webkit-fill-available;
+  }
+  html,
+  body {
+    overflow: hidden;
   }
   .image {
     top: 50%;
