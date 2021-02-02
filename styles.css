@@ -102,6 +102,9 @@ h1 {
   max-height: 50vh;
 }
 @media (max-width: 600px) {
+  body {
+    min-height: 60vh;
+  }
   .main .top,
   .flex {
     display: inherit;
@@ -121,17 +124,6 @@ h1 {
   .main .bottom {
     /* position: inherit;
     margin-top: 24px; */
-  }
-  body {
-    min-height: 100vh;
-    min-height: -webkit-fill-available;
-  }
-  html {
-    height: -webkit-fill-available;
-  }
-  html,
-  body {
-    overflow: hidden;
   }
   .image {
     top: 50%;
