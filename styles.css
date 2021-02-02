@@ -79,13 +79,7 @@ h1 {
 }
 .justify {
 }
-@media (max-width: 600px) and (orientation: landscape) {
-  .main .top,
-  .flex {
-    margin: 12px;
-    display: flex;
-  }
-}
+
 .grid {
   display: grid;
   text-align: center;
@@ -153,5 +147,12 @@ h1 {
   } */
 
   #Layer_1 {
+  }
+}
+@media (max-width: 600px) and (orientation: landscape) {
+  .main .top,
+  .flex {
+    margin: 12px;
+    display: flex;
   }
 }
